@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 from settings import db_path
 import sqlite3
+import ctypes
 
 class Base_Model (ABC):
    def __init__(self, id = None) -> None:
